@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.qapitol.qa.test.TestDemoTest]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.qapitol.qa.test.TestDemoTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.qapitol.qa.test.TestDemoTest">
+        <methods>
+          <include name="testGetAll"/>
+          <include name="testDeletePost"/>
+          <include name="testUpdatePost"/>
+          <include name="testSavePost"/>
+          <include name="config"/>
+          <include name="testGetEmployee"/>
+        </methods>
+      </class> <!-- com.qapitol.qa.test.TestDemoTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.qapitol.qa.test.TestDemoTest] -->
